@@ -11,6 +11,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.ScrollAxisRange
 import androidx.compose.ui.semantics.horizontalScrollAxisRange
@@ -18,6 +19,8 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.bennyjon.nestedscrollcomposebug.ui.theme.NestedScrollComposeBugTheme
 import com.google.accompanist.pager.pagerTabIndicatorOffset
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,6 +45,7 @@ class MainActivity : ComponentActivity() {
         sizes: List<Int> = listOf(10, 20, 7) // real life example with variable Page heights
     ) {
         val pagerState = rememberPagerState()
+        val coroutineScope = rememberCoroutineScope()
 
         Column(Modifier.verticalScroll(rememberScrollState())) {
             TabRow(
@@ -59,7 +63,11 @@ class MainActivity : ComponentActivity() {
                     Tab(
                         text = { Text(title) },
                         selected = pagerState.currentPage == index,
-                        onClick = { /* TODO */ },
+                        onClick = {
+                            coroutineScope.launch {
+                                pagerState.animateScrollToPage(index)
+                            }
+                        },
                     )
                 }
             }
