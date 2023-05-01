@@ -19,7 +19,6 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.bennyjon.nestedscrollcomposebug.ui.theme.NestedScrollComposeBugTheme
 import com.google.accompanist.pager.pagerTabIndicatorOffset
-import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
