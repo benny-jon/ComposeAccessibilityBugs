@@ -7,9 +7,13 @@ Sample project for the Google Issue: https://issuetracker.google.com/issues/2658
 
 `HorizontalPager` used here is the one from: `androidx.compose.foundation.pager.HorizontalPager`
 
-## CODE: For the full list of examples look at the file `ListOfExamples.kt`
+## Code
 
-## Look at EXAMPLE 3
+For the full list of examples look at the file `ListOfExamples.kt`
+
+## Main Example
+
+### EXAMPLE 3
 
 Complex Scenario: Text-Banner + Tabs + [HorizontalPagerWithScrollableContent](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:compose/foundation/foundation/samples/src/main/java/androidx/compose/foundation/samples/PagerSamples.kt;drc=8200a13fd2551907d0a7fa99f00b09988821704b;l=276) with variable heights.
 
