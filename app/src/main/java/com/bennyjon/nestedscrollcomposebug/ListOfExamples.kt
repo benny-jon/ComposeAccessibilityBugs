@@ -17,7 +17,7 @@ enum class ExamplesDestinations(val text: String, val screen: @Composable () -> 
                 "-Keyboard navigation doesn't finish the Pager transition from one to another one. \n " +
                 "-Keyboard + Talkback together is very unstable, when using the Tab key " +
                 "focus separates at end of the first visible elements before scrolling",
-        screen = { HorizontalPagerWithRecommendedSolutionExample() }
+        screen = { HorizontalPagerWithSimplifiedSolutionExample() }
     ),
     EXAMPLE_3(
         text = "EXAMPLE 3: Complex Scenario: Expands the example from Google by making all Items " +

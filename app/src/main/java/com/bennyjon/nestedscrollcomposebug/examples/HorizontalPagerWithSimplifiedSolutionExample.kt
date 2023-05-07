@@ -27,7 +27,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun HorizontalPagerWithRecommendedSolutionExample(
+fun HorizontalPagerWithSimplifiedSolutionExample(
     pages: List<String> = listOf("Tab 1", "Tab 2", "Tab 3", "Tab 4", "Tab 5"),
     sizes: List<Int> = listOf(10, 17, 10, 3, 12) // real life example with variable Page heights
 ) {
