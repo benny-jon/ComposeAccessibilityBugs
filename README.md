@@ -30,7 +30,7 @@ Box {
 
 ### Issues
 - Not usable in Landscape mode
-- Talkback navigation doesn't scroll the Banner and Tabs. Will be a problem for Landscape.
+- Talkback navigation doesn't scroll the Banner and Tabs out of the screen through the nestedScrollConnnection. Will be a problem for Landscape.
 - Talkback navigation focus is trapped inside the Pages until the user reaches the First or Last page.
 - Keyboard navigation doesn't finish the Pager transition from one to another one.
 - Keyboard + Talkback navigation is very unstable, when using the Tab key focus separates at end of the first visible elements before scrolling
