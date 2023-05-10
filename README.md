@@ -3,17 +3,18 @@
 
 Sample project for the Google Issue: https://issuetracker.google.com/issues/265804603 
 
-## Composable under Test
+## Composables under Test
 
-`HorizontalPager` used here is the one from: `androidx.compose.foundation.pager.HorizontalPager`
+- `HorizontalPager` used here is the one from: `androidx.compose.foundation.pager.HorizontalPager`
+- `ModalBottomSheetLayout` 
 
 ## Code
 
 For the full list of examples look at the file `ListOfExamples.kt`
 
-## Main Example
+# Highlighted Examples
 
-### EXAMPLE 3
+## EXAMPLE 3 - HorizontalPager
 
 Complex Scenario: Built on top of Google Example [HorizontalPagerWithScrollableContent](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:compose/foundation/foundation/samples/src/main/java/androidx/compose/foundation/samples/PagerSamples.kt;drc=8200a13fd2551907d0a7fa99f00b09988821704b;l=276) with variable Page heights.
 ```
@@ -47,5 +48,15 @@ Box {
 ### Talkback in Landscape
 
 https://user-images.githubusercontent.com/13564205/236698279-191447be-cfab-4485-9687-d2f55cab3a76.mp4
+
+
+## EXAMPLE 5 - ModalBottomSheetLayout
+
+### Issue:
+Focus is not restored after closing the Bottom Sheet. It should go back to the button 'Open Bottom Sheet'
+
+https://github.com/benny-jon/ComposeAccessibilityBugs/assets/13564205/632ff82e-134e-40db-bef8-b849c746b757
+
+
 
 
