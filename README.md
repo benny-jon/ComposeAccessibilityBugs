@@ -1,7 +1,9 @@
 # ComposeAccessibilityBugs
  Playground to create examples of Accessibility bugs 
 
-Sample project for the Google Issue: https://issuetracker.google.com/issues/265804603 
+Sample project for the Google Issues:
+- https://issuetracker.google.com/issues/265804603 
+- https://issuetracker.google.com/issues/230039401
 
 ## Composables under Test
 
