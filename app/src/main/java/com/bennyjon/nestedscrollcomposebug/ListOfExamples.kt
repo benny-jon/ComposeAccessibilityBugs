@@ -34,5 +34,12 @@ enum class ExamplesDestinations(val text: String, val screen: @Composable () -> 
         text = "EXAMPLE FROM GOOGLE: HorizontalPagerWithScrollableContent" +
                 "\n(Even when its a simplified example, has most of the issues from Example 2 and 3)",
         screen = { HorizontalPagerWithScrollableContent() }
+    ),
+
+    EXAMPLE_5(
+        text = "EXAMPLE 5: Screen that opens a Bottom Sheet" +
+        "\nISSUE:" +
+                "\n-Focus is not restored after closing the Bottom Sheet. It should go back to the button 'Open Bottom Sheet'",
+        screen = { SimpleScreenWithBottomSheet() }
     )
 }
