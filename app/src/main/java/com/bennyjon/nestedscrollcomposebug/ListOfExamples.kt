@@ -41,5 +41,10 @@ enum class ExamplesDestinations(val text: String, val screen: @Composable () -> 
         "\nISSUE:" +
                 "\n-Focus is not restored after closing the Bottom Sheet. It should go back to the button 'Open Bottom Sheet'",
         screen = { SimpleScreenWithBottomSheet() }
+    ),
+
+    EXAMPLE_6(
+        text = "EXAMPLE 6: Screen that opens a Bottom Sheet, and manually uses RequestFocus with Delays to restore focus",
+        screen = { SimpleScreenWithBottomSheetWithFocusRequester() }
     )
 }
