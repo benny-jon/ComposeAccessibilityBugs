@@ -38,7 +38,7 @@ Box {
 
 | Touch | Talkback |
 |-|-|
-|  <video src="https://user-images.githubusercontent.com/13564205/236698321-878d956b-3250-47d3-a581-faab50ef35c4.mp4"/> | <video src="https://user-images.githubusercontent.com/13564205/236697763-d3c56586-ba06-4632-b285-5fece0ea08d3.mp4 "/> |
+| <video src="https://github.com/benny-jon/ComposeAccessibilityBugs/assets/13564205/e8541fe9-5599-4967-b25f-31c876b35f0b"/> | <video src="https://user-images.githubusercontent.com/13564205/236697763-d3c56586-ba06-4632-b285-5fece0ea08d3.mp4 "/> |
 
 | Keyboard | Talkback + Keyboard |
 |-|-|
