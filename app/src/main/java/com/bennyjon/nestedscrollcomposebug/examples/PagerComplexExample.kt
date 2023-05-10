@@ -132,7 +132,8 @@ fun HorizontalPagerWithClickableScrollableContentWithBanner(
                 },
             state = pagerState,
             pageCount = pages.size,
-            contentPadding = PaddingValues(top = paddingOffset)
+            contentPadding = PaddingValues(top = paddingOffset),
+            verticalAlignment = Alignment.Top
         ) { page ->
             Column(
                 modifier = Modifier

@@ -34,7 +34,6 @@ Box {
 - Talkback navigation focus is trapped inside the Pages until the user reaches the First or Last page.
 - Keyboard navigation doesn't finish the Pager transition from one to another one.
 - Keyboard + Talkback navigation is very unstable, when using the Tab key focus separates at end of the first visible elements before scrolling
-- Normal Touch swipes: The Pager runs a weird Animation for Page 4 because it has less elements than Page 3 and 5
 
 
 | Touch | Talkback |
