@@ -1,5 +1,5 @@
-# ComposeAccessibilityBugs
- Playground to create examples of Accessibility bugs 
+# ComposeAccessibilityBugs & Workarounds
+ Playground to create examples of Accessibility bugs and implementing some workarounds
 
 Sample project for the Google Issues:
 - https://issuetracker.google.com/issues/265804603 
