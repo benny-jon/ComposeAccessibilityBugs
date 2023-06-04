@@ -46,5 +46,10 @@ enum class ExamplesDestinations(val text: String, val screen: @Composable () -> 
     EXAMPLE_6(
         text = "EXAMPLE 6: Screen that opens a Bottom Sheet, and manually uses RequestFocus with Delays to restore focus",
         screen = { SimpleScreenWithBottomSheetWithFocusRequester() }
+    ),
+
+    EXAMPLE_7(
+        text = "EXAMPLE 7: Workaround using Focus Requester in a Complex Screen with Tabs that open a Bottom Sheet",
+        screen = { ComplexPageWithBottomSheetWithFocusRequester() }
     )
 }
