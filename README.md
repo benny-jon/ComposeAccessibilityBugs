@@ -1,6 +1,8 @@
 # ComposeAccessibilityBugs & Workarounds
  Playground to create examples of Accessibility bugs and implementing some workarounds
 
+## Compose version used: `1.4.2`
+
 Sample project for the Google Issues:
 - https://issuetracker.google.com/issues/265804603 
 - https://issuetracker.google.com/issues/230039401
